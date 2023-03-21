@@ -1,0 +1,36 @@
+{
+  "name": "namaste-javascript",
+  "version": "1.0.0",
+  "description": "This is for pratice",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:venkatrao156/react-learning.git"
+  },
+  "author": "Venkatesh Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/venkatrao156/react-learning/issues"
+  },
+  "homepage": "https://gitlab.com/venkatrao156/react-learning#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading-skeleton": "^3.2.0",
+    "react-router-dom": "^6.9.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
